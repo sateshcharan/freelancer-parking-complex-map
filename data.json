@@ -1,0 +1,70 @@
+{
+  "category": {
+    "Terminal Parken": "#016599",
+    "Economy Parken": "#ff9933",
+    "Valet Parken": "#990066",
+    "Parkpiatze mit Ladmedglichkeliten": "#65cc33"
+  },
+  "buildings": [
+    {
+      "id": "p4",
+      "info": {
+        "category": "Terminal Parken",
+        "name": "Parkhaus P4",
+        "description": "Beste Lage für alle Abflüge ab Terminal 1, Modul C-E. Kurze Fußwege zum Terminal und Zentralbereich sind ideales Preis-/Leistungsverhältnis für Privat- und Geschäftsreisende Barrierefreiheit Parkplaza ausgewiesen",
+        "qr": "./assets/qr/P7.png",
+        "cancel": "lorem ipsum dor soet"
+      },
+      "distance": {
+        "t1": "2",
+        "t2": "10"
+      },
+      "available": "100,101,102"
+    },
+    {
+      "id": "p5",
+      "info": {
+        "category": "Economy Parken",
+        "name": "Parkhaus P5",
+        "description": "Beste Lage für alle Abflüge ab Terminal 1, Modul C-E. Kurze Fußwege zum Terminal und Zentralbereich sind ideales Preis-/Leistungsverhältnis für Privat- und Geschäftsreisende Barrierefreiheit Parkplaza ausgewiesen",
+        "qr": "./assets/qr/P6.png",
+        "cancel": "lorem ipsum dor soet"
+      },
+      "distance": {
+        "t1": "5",
+        "t2": "12"
+      },
+      "available": "200,201,202"
+    },
+    {
+      "id": "p6",
+      "info": {
+        "category": "Valet Parken",
+        "name": "Parkhaus P6",
+        "description": "Beste Lage für alle Abflüge ab Terminal 1, Modul C-E. Kurze Fußwege zum Terminal und Zentralbereich sind ideales Preis-/Leistungsverhältnis für Privat- und Geschäftsreisende Barrierefreiheit Parkplaza ausgewiesen",
+        "qr": "./assets/qr/P6.png",
+        "cancel": "lorem ipsum dor soet"
+      },
+      "distance": {
+        "t1": "1.5",
+        "t2": "8"
+      },
+      "available": "300,301,302"
+    },
+    {
+      "id": "p7",
+      "info": {
+        "category": "Parkpiatze mit Ladmedglichkeliten",
+        "name": "Parkhaus P7",
+        "description": "Beste Lage für alle Abflüge ab Terminal 1, Modul C-E. Kurze Fußwege zum Terminal und Zentralbereich sind ideales Preis-/Leistungsverhältnis für Privat- und Geschäftsreisende Barrierefreiheit Parkplaza ausgewiesen",
+        "qr": "./assets/qr/P6.png",
+        "cancel": "lorem ipsum dor soet"
+      },
+      "distance": {
+        "t1": "4",
+        "t2": "14"
+      },
+      "available": "400,401,402"
+    }
+  ]
+}

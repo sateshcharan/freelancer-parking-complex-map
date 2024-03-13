@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card,
+#container {
+  width: 65vw;
+  height: 50vh; /* Adjust the maximum width as needed */
+}
+
+div.card-body {
+  padding: 0;
+}
+
+div.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  background: #f2f2f2;
+  height: 80px;
+}
+
+.info > div {
+  border: 1px solid #d8d8d8;
+  height: 80px;
+}
+
+div.arrow {
+  background: #016599;
+  width: 40px;
+}
+
+.arrow img {
+  width: 2em;
+  padding: 8px;
+}
+
+div#moreInfo {
+  display: none;
+}
+
+h6#category {
+  color: grey;
+  margin-block-end: 0;
+}
+
+.title {
+  color: grey;
+}
+
+.id {
+  padding: 10px 20px;
+  background: #0099cb;
+  color: white;
+}
+
+h4#id.id {
+  margin-block-end: 0;
+}
+
+a.btn.btn-primary {
+  background-color: #0099cb;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+p.description {
+  width: 50%;
+  padding: 1em;
+  margin-block-end: 0;
+}
+
+.walking {
+  width: 4em;
+  padding: 15px;
+}
+
+.distance {
+  display: flex;
+  gap: 0.5em;
+}
+
+div.distance h6 {
+  margin-block-end: 0;
+}
+
+.label {
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 12px;
+  border: none;
+}
+
+#element {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: background-color 0.5s ease;
+}
+
+.highlight {
+  background-color: red !important;
+}
